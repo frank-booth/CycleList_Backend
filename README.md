@@ -37,21 +37,21 @@
 
 ### _Component Heirarchy Diagram (CHD)_
 
-![Image](CycleList_CHD_v.2.png)
+![Image](Assets/CycleList_CHD_v.2.png)
 
 ---
 
 ### _Entity Relationship Diagram (ERD)_
 
-### *Entity Relationship Diagram (ERD)*
-![Image](CyleList_ERD.png)
+### _Entity Relationship Diagram (ERD)_
 
+![Image](Assets/CyleList_ERD.png)
 
 ---
 
 ### _Wireframes_
 
-![image](CycleList_Wireframes.png)
+![image](Assets/CycleList_Wireframes.png)
 
 [Figma File](https://www.figma.com/file/NtcUH9Miw0GxNS1v86WxLU/CycleList-Wire-frame?node-id=0%3A1)
 
