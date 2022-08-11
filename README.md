@@ -1,47 +1,64 @@
 # CycleList
+
 ## 8/11/2022
+
 ### By: [Eric Deleon](https://github.com/132E), [Jeff Fraley](https://github.com/frank-booth), [Kristina DeSilva](https://github.com/kavdesilva)
 
-***
+---
 
-### *Description*
+### _Description_
+
 #### A website for spin instructors and novices to help build indoor cycle workouts. The rider will be able to include their favorite songs with their routines for a customized, personal workout.
 
-***
+---
 
 ### [CycleList link]()
 
-***
+---
 
-### *Languages*
-* Sequelize
-* Express
-* React
-* Node.js
+### _Languages_
 
-***
+- Sequelize
+- Express
+- React
+- Node.js
 
-### *Trello Board*
+---
+
+### _Trello Board_
+
 #### [Project Three - "CycleList"](https://trello.com/b/1N4S1Jx8/cyclelist)
 
-***
+### _Slide Deck Presentation_
 
-### *Component Heirarchy Diagram (CHD)*
+[Pitch Deck - "CycleList"](https://docs.google.com/presentation/d/1FLtKpsfmaUjRKlfJIkHD1hOHDsaINoCnSSkfsbsxyUw/edit?usp=sharing)
+
+---
+
+### _Component Heirarchy Diagram (CHD)_
+
 ![Image](CycleList_CHD_v.2.png)
 
-***
+---
+
+### _Entity Relationship Diagram (ERD)_
 
 ### *Entity Relationship Diagram (ERD)*
 ![Image](CyleList_ERD.png)
 
-***
 
-### *Wireframes*
+---
+
+### _Wireframes_
+
 ![image](CycleList_Wireframes.png)
 
-***
+[Figma File](https://www.figma.com/file/NtcUH9Miw0GxNS1v86WxLU/CycleList-Wire-frame?node-id=0%3A1)
 
-### *Future Updates*
+---
+
+### _Future Updates_
+
 - [x] README.md
 - [x] Trello Board
 - [x] Wireframes
@@ -52,11 +69,13 @@
 - [ ] Backend
 - [ ] Heroku Deployment
 
-### *Post-MVP*
+### _Post-MVP_
+
 - [ ] Playlist Functionality
 - [ ] Login Authentication
 
-***
+---
 
-### *Credits*
+### _Credits_
+
 #### [JollySpins](https://jollyspins.wordpress.com/)
