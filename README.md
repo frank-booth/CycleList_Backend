@@ -32,7 +32,7 @@
 ***
 
 ### *Entity Relationship Diagram (ERD)*
-![Image](CycleList.svg)
+![Image](CyleList_EHR.png)
 
 ***
 
