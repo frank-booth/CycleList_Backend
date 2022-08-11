@@ -43,8 +43,6 @@
 
 ### _Entity Relationship Diagram (ERD)_
 
-### _Entity Relationship Diagram (ERD)_
-
 ![Image](Assets/CyleList_ERD.png)
 
 ---
