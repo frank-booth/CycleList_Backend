@@ -43,7 +43,9 @@
 
 ### _Entity Relationship Diagram (ERD)_
 
-![Image](CyleList_EHR.png)
+### *Entity Relationship Diagram (ERD)*
+![Image](CyleList_ERD.png)
+
 
 ---
 
