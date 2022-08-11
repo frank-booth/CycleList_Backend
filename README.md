@@ -26,11 +26,18 @@
 
 ***
 
-### Component Heirarchy Diagram (CHD)
-![Image](CycleList_Backend/CycleList_CHD_v.2.png)
+### *Component Heirarchy Diagram (CHD)*
+![Image](CycleList_CHD_v.2.png)
 
-### Entity Relationship Diagram (ERD)
-![Image](CycleList_Backend/CycleList.svg)
+***
+
+### *Entity Relationship Diagram (ERD)*
+![Image](CycleList.svg)
+
+***
+
+### *Wireframes*
+![image](CycleList_Wireframes.png)
 
 ***
 
