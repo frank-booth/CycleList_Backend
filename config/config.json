@@ -1,0 +1,17 @@
+{
+  "development": {
+    "database": "cycle_list",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "cycle_list_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "cycle_list_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
