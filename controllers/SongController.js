@@ -11,7 +11,9 @@ const getAllSongs = async (req, res) => {
 
 const getSongById = async (req, res) => {
   try {
-    const song = await Song.findByPk(req.params.song_id);
+    const song = await Song.findByPk(req.params.song_id, {
+      include:[{ model: Rider }, { model: Routine }]
+    });
     res.send(song);
   } catch (error) {
     throw error;
