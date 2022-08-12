@@ -18,7 +18,7 @@
 
 ### _Languages_
 
-- Sequelize
+- Postgresql/Sequelize
 - Express
 - React
 - Node.js
