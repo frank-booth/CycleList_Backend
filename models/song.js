@@ -9,6 +9,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Song.belongsTo(models.Rider, { foreignKey: "riderId" });
+      Song.hasOne(models.Routine, { foreignKey: "songId" });
     }
   }
   Song.init(
@@ -23,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
         onUpdate: "CASCADE",
         references: {
           model: "riders",
-          key: "id",
+          key: "id"
         },
       },
     },

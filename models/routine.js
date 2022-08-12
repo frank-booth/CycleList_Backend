@@ -11,12 +11,21 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Routine.belongsTo(models.Song, { foreignKey: "songId" })
     }
   }
   Routine.init({
     content: DataTypes.STRING,
     category: DataTypes.STRING,
-    songId: DataTypes.INTEGER
+    songId: {
+      type: DataTypes.INTEGER,
+      onDelete: "CASCADE",
+      onUpdate: "CASCADE",
+      references: {
+        model: "songs",
+        key: "id"
+      }
+    }
   }, {
     sequelize,
     modelName: 'Routine',

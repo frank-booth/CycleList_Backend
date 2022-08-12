@@ -1,8 +1,8 @@
-const { Song,Rider } = require("../models");
+const { Song, Rider, Routine } = require("../models");
 
 const getAllSongs = async (req, res) => {
   try {
-    const songs = await Song.findAll({include:[{model:Rider}]});
+    const songs = await Song.findAll({include:[{ model: Rider }, { model: Routine }]});
     res.send(songs);
   } catch (error) {
     throw error;
