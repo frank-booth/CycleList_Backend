@@ -18,7 +18,7 @@
 
 ### _Languages_
 
-- Sequelize
+- Postgresql/Sequelize
 - Express
 - React
 - Node.js
@@ -40,8 +40,6 @@
 ![Image](Assets/CycleList_CHD_v.2.png)
 
 ---
-
-### _Entity Relationship Diagram (ERD)_
 
 ### _Entity Relationship Diagram (ERD)_
 
