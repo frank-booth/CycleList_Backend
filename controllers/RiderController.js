@@ -20,7 +20,17 @@ const getRiderById = async (req, res) => {
     }
 }
 
+const createNewRider = async (req, res) => {
+    try{
+        let newRider = await Rider.create(req.body)
+        res.send(newRider)
+    } catch (error){
+        throw error
+    }
+}
+
 module.exports = {
     getAllRiders,
-    getRiderById
+    getRiderById,
+    createNewRider
 }
