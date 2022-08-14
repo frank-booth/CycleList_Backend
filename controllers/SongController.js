@@ -46,9 +46,23 @@ const updateSong = async (req, res) => {
   }
 }
 
+const deleteSong = async (req, res) => {
+  try {
+    let songId = parseInt(req.params.song_id)
+    let deletedSongs = await Song.destroy({
+      where: { id: songId }
+    })
+
+    res.send(`Song deleted with id of ${songId}`)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
   getAllSongs,
   getSongById,
   createNewSong,
-  updateSong
+  updateSong,
+  deleteSong
 }
