@@ -1,4 +1,4 @@
-const { Routine } = require("../models");
+const { Song, Routine } = require("../models");
 
 const getAllRoutines = async (req, res) => {
   try {
@@ -9,6 +9,18 @@ const getAllRoutines = async (req, res) => {
   }
 };
 
+const createNewRoutine = async (req, res) => {
+  try {
+    let songId = parseInt(req.params.song_id)
+    let newRoutine = { songId, ...req.body}
+    let routine = await Routine.create(newRoutine)
+    res.send(routine)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
   getAllRoutines,
+  createNewRoutine
 };
