@@ -52,7 +52,6 @@ const deleteSong = async (req, res) => {
     let deletedSongs = await Song.destroy({
       where: { id: songId }
     })
-
     res.send(`Song deleted with id of ${songId}`)
   } catch (error) {
     throw error
