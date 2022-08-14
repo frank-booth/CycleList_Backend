@@ -33,8 +33,22 @@ const createNewSong = async (req, res) => {
   }
 }
 
+const updateSong = async (req, res) => {
+  try {
+    let songId = parseInt(req.params.song_id)
+    let updatedSong = await Song.update(req.body, {
+      where: { id: songId },
+      returning: true
+    })
+    res.send(updatedSong)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
   getAllSongs,
   getSongById,
-  createNewSong
+  createNewSong,
+  updateSong
 }

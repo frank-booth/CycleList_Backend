@@ -4,5 +4,6 @@ const controller = require('../controllers/SongController')
 Router.get('/', controller.getAllSongs)
 Router.get('/:song_id', controller.getSongById)
 Router.post('/:rider_id', controller.createNewSong)
+Router.put('/:song_id', controller.updateSong)
 
 module.exports = Router
