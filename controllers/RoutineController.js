@@ -20,7 +20,34 @@ const createNewRoutine = async (req, res) => {
   }
 }
 
+const updateRoutine = async (req, res) => {
+  try {
+    let routineId = parseInt(req.params.routine_id)
+    let updatedRoutine = await Routine.update(req.body, {
+      where: { id: routineId },
+      returning: true
+    })
+    res.send(updatedRoutine)
+  } catch (error) {
+    throw error
+  }
+}
+
+const deleteRoutine = async (req, res) => {
+  try {
+    let routineId = parseInt(req.params.routine_id)
+    let deletedRoutine = await Routine.destroy({
+      where: { id: routineId }
+    })
+    res.send(`Routine ${routineId} deleted.`)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
   getAllRoutines,
-  createNewRoutine
+  createNewRoutine,
+  updateRoutine,
+  deleteRoutine
 };
